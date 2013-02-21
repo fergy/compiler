@@ -1,0 +1,7 @@
+/* Generated automatically. */
+static const char configuration_arguments[] = "/home/jserv/Linaro/toolchain/build/../gcc/gcc-linaro-4.5-2011.06-0/configure --prefix=/tmp/android-toolchain-eabi --target=arm-eabi --host=x86_64-linux-gnu --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/home/jserv/Linaro/toolchain/build/temp-install --with-mpfr=/home/jserv/Linaro/toolchain/build/temp-install --with-mpc=/home/jserv/Linaro/toolchain/build/temp-install --with-cloog=/home/jserv/Linaro/toolchain/build/temp-install --with-ppl=/home/jserv/Linaro/toolchain/build/temp-install --disable-ppl-version-check --disable-cloog-version-check --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --with-abi=aapcs --prefix=/tmp/android-toolchain-eabi --disable-docs --disable-nls --with-gcc-version=linaro-4.5-2011.06-0 --with-gdb-version=linaro-7.2-2011.05-0 --with-binutils-version=2.20.1 --with-gmp-version=5.0.2 --with-mpfr-version=3.0.1 --with-mpc-version=0.9 --program-transform-name='s,^,arm-eabi-,'";
+static const char thread_model[] = "single";
+
+static const struct {
+  const char *name, *value;
+} configure_default_options[] = { { "abi", "aapcs" }, { "arch", "armv5te" }, { "float", "soft" }, { "fpu", "vfp" } };
